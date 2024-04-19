@@ -3,6 +3,19 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "description": "CodexSphere is a web application built using Vite.js and Node.js that offers a platform for selling and accessing a wide range of books. Whether you're looking to purchase books or access free resources, CodexSphere provides a convenient and user-friendly experience.",
+    "author": {
+        "name": "Priyanshu",
+        "email": "abpriyanshu007@gmail.com",
+        "url": "https://priyanshu085.tech",
+        "twitter": "https://twitter.com/Priyanshux085"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://www.github.com/priyanshu085/codexsphere.git"
+    },
+    "keywords": ["books", "ecommerce", "web development"],
     "scripts": {
         "dev": "concurrently vite \"npm run Backend\" ",
         "build": "vite build",
@@ -35,5 +48,9 @@
         "postcss": "^8.4.35",
         "tailwindcss": "^3.4.1",
         "vite": "^5.1.6"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/Priyanshu085/CodexSphere/issues"
+      },
+      "homepage": "https://github.com/Priyanshu085/CodexSphere#readme"
 }
